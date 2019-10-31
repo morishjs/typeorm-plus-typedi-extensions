@@ -1,0 +1,55 @@
+{
+  "name": "typeorm-plus-typedi-extensions",
+  "version": "0.0.1",
+  "description": "Dependency injection and service container integration with TypeORM using TypeDI library.",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "author": {
+    "name": "Junsuk Park",
+    "email": "park64kr63e@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/morishjs/typeorm-plus-typedi-extensions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/morishjs/typeorm-plus-typedi-extensions/issues"
+  },
+  "tags": [
+    "orm",
+    "typescript",
+    "typescript-orm",
+    "typeorm",
+    "typeorm-plus",
+    "typeorm-typedi-extensions",
+    "typeorm-plus-typedi-extensions",
+    "typeorm-typedi"
+  ],
+  "devDependencies": {
+    "@types/node": "^8.0.31",
+    "chai": "^4.1.2",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^4.3.1",
+    "gulp-replace": "^0.6.1",
+    "gulp-shell": "^0.6.3",
+    "gulp-tslint": "^8.1.2",
+    "gulpclass": "^0.2.0",
+    "mysql": "^2.15.0",
+    "reflect-metadata": "^0.1.12",
+    "sinon-chai": "^2.13.0",
+    "ts-node": "^6.2.0",
+    "tslint": "^5.7.0",
+    "tslint-stylish": "^2.1.0",
+    "typedi": "^0.8.0",
+    "typeorm-plus": "0.0.54",
+    "typescript": "^2.8.1"
+  },
+  "peerDependencies": {
+    "typedi": ">=0.7.2",
+    "typeorm-plus": ">=0.0.54"
+  },
+  "dependencies": {
+    "run-sequence": "^2.2.1"
+  }
+}
