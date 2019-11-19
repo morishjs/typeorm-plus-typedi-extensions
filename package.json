@@ -1,6 +1,6 @@
 {
   "name": "typeorm-plus-typedi-extensions",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Dependency injection and service container integration with TypeORM using TypeDI library.",
   "license": "MIT",
   "readmeFilename": "README.md",
@@ -42,12 +42,12 @@
     "tslint": "^5.7.0",
     "tslint-stylish": "^2.1.0",
     "typedi": "^0.8.0",
-    "typeorm-plus": "0.0.54",
+    "typeorm-plus": "^0.0.57",
     "typescript": "^2.8.1"
   },
   "peerDependencies": {
     "typedi": ">=0.7.2",
-    "typeorm-plus": ">=0.0.54"
+    "typeorm-plus": ">=0.0.55"
   },
   "dependencies": {
     "run-sequence": "^2.2.1"
